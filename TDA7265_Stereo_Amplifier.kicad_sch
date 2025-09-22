@@ -1768,6 +1768,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 69.85) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c4cf2a-2414-4dd5-b4e5-40cafcffba6b")
+	)
+	(wire
+		(pts
+			(xy 185.42 34.29) (xy 187.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc2bffa-3a58-4031-a189-07f10cbb6f84")
+	)
+	(wire
+		(pts
 			(xy 93.98 40.64) (xy 101.6 40.64)
 		)
 		(stroke
@@ -2018,16 +2038,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 36.83) (xy 187.96 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "795391f8-14b9-48e4-a71f-99d5d745630e")
-	)
-	(wire
-		(pts
 			(xy 95.25 118.11) (xy 95.25 110.49)
 		)
 		(stroke
@@ -2075,16 +2085,6 @@
 			(type default)
 		)
 		(uuid "8f75ed06-7f08-4243-92a8-a445ec40d40d")
-	)
-	(wire
-		(pts
-			(xy 185.42 36.83) (xy 187.96 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e891e4-ca28-4947-b2de-6d10d19d1785")
 	)
 	(wire
 		(pts
@@ -2188,16 +2188,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 34.29) (xy 160.02 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb0ccc0-de9b-463f-a484-c3a2b73979af")
-	)
-	(wire
-		(pts
 			(xy 207.01 127) (xy 207.01 129.54)
 		)
 		(stroke
@@ -2218,13 +2208,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 160.02 69.85)
+			(xy 187.96 34.29) (xy 187.96 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c59c10ef-5157-45e0-9216-3a3f6bee6768")
+		(uuid "c43ada7b-3a7d-47b8-b2e2-a84954430343")
 	)
 	(wire
 		(pts
@@ -2258,6 +2248,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 36.83) (xy 170.18 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea55b2e-673e-416b-98cf-06df9e812961")
+	)
+	(wire
+		(pts
 			(xy 72.39 45.72) (xy 82.55 45.72)
 		)
 		(stroke
@@ -2268,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 34.29) (xy 160.02 69.85)
+			(xy 160.02 36.83) (xy 160.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2417,7 @@
 		(uuid "61bdc004-ebed-45fc-953e-8aad505d211c")
 	)
 	(label "OUTR+"
-		(at 160.02 53.34 0)
+		(at 160.02 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2458,22 +2458,22 @@
 	)
 	(global_label "INR"
 		(shape input)
-		(at 185.42 31.75 0)
+		(at 170.18 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0e9de81b-48da-4238-8d75-6cfaedacfbea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.6105 31.75 0)
+			(at 163.9895 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2928,7 +2928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 237.49 71.628 90)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "2200uF"
 			(at 229.87 138.8109 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 249.682 76.2 90)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 173.99 71.628 90)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 186.182 76.2 90)
 			(effects
 				(font
@@ -4538,7 +4538,6 @@
 	(symbol
 		(lib_id "Amplifier_Audio:TDA7265")
 		(at 177.8 34.29 0)
-		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)

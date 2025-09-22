@@ -10,6 +10,7 @@
 ![Back](TDA7265_Stereo_Amplifier_back.png)
 
 ### Assembly
+#### Rev 1
 ![Assebly](TDA7265_Stereo_Amplifier_Assembly.jpg)
 
 > **_Note_**: Install all kicad libraries in `libraries/` to use
